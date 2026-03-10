@@ -8,4 +8,4 @@ const syncTest = () => {
 
 module.exports = {
     syncTest
-};
+}; 

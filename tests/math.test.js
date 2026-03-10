@@ -61,7 +61,7 @@ describe('divide', () => {
     test('debe dividir dos números', () => {
         expect(divide(10, 2)).toBe(5);
     });
-
+    
     test('debe lanzar error al dividir entre cero', () => {
         expect(() => divide(10, 0)).toThrow('No se puede dividir entre cero');
     });
